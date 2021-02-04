@@ -1,0 +1,45 @@
+/*style gene*/
+
+body{
+    margin:0;
+  }
+  .img{
+    height:250px;
+    width:400px;
+  }
+  .container{
+    padding :50px 20%;
+  }
+  /*style dispo*/
+  
+  .d-flex{
+    display: flex;
+  }
+  
+  .justify-content-center{
+    justify-content: center
+  }
+  
+  .justify-content-between{
+    justify-content: space-between;
+  }
+  
+  
+  
+  /*autre*/
+  
+  .banner{
+    background-color:grey;
+    height:50vh;
+    background-image:url('https://archzine.fr/wp-content/uploads/2018/04/beau-fond-d-e%CC%81cran-girly-ecran-de-verrouillage-iphone-cool-photo-pour-iphone-art-nuages-oiseaux.png');
+    color:white;
+    background-position:center;
+     background-size: cover;
+  text-shadow: 2px 2px 0px purple;
+    
+   
+  }
+  ifram{
+    hoover:pink;
+  }
+  
