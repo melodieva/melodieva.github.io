@@ -1,11 +1,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
      <body>
+
         <center>
      <div class="header"></div>
-      <h1>Mon mini CV</h1>
+    <h1>Mon mini CV</h1>
     </div>
        <div class= "comp">
           <img class="headimg"
@@ -21,7 +23,7 @@
           </ul>
         </div>
 
-
+        <div data-aos="fade-right">
         <h3>Projets</h3>
         <div class="projet">
        
@@ -47,9 +49,9 @@
               <p>Exercice vacance</p>
             </div>
           </div>
+        </div> 
 
-
-
+        <div data-aos="fade-left">
         <div class ="objectif" >
          <h3>✨Mes objectifs pour se cours sont:</h3>
           <ul>
@@ -64,7 +66,9 @@
               j'espère y parvenir.
          </p>
         </div>
-       
+    </div>
+
+    <div data-aos="fade-right">
         <div class ="loved" >
          <h3>✨Mes occupations</h3>
           <ul>
@@ -76,8 +80,11 @@
              ✨ Je suis une personne qui aime rigoler qui aime découvrir de nouvelle chose.
          </p>
         </div>
-       
-       
+        </div>
+        
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+   
        <form action="mailto:melodie.vang38230@gmail.com"
              method="post" enctype="text/plain">
          <div class="form">
@@ -91,11 +98,17 @@
        </div>
          </div>
        </form>
-         
+    </div>
          <img class="logoimg"
          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/langfr-220px-Instagram_logo_2016.svg.png" />
        <a href="https://www.instagram.com/melhoudyy/">mon instagram</a>
        </center>
+
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
      </body>
 
 </html>
