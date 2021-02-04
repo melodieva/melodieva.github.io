@@ -108,6 +108,7 @@ h1{
     display:block;
     box-shadow:  2px 1px 2px  rgb(48, 4, 4) ;
     background-color:white;
+    -webkit-border-radius : 50px;
   }
 
 
@@ -126,4 +127,5 @@ h1{
 .form:hover{
   background-color: pink;
   border: dashed white;
+  -webkit-border-radius : 50px;
 }
