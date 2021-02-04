@@ -256,7 +256,7 @@ background-image: url("https://f.roocdn.com/images/menu_tags/285/menu-tag-image.
   height:900px;
 }
 #containerofwork{
-  display:inline flex;
+  display:flex;
 
 }
 
