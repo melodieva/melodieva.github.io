@@ -125,7 +125,7 @@ h1{
 }
 
 .form:hover{
-  background-color: pink;
-  border: dashed white;
+  color:white;
+  border: dashed brown;
   -webkit-border-radius : 50px;
 }
