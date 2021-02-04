@@ -1,0 +1,320 @@
+/*
+Couleur : 
+- vert : #00ccbc
+- gris : #f9fafa
+- noir : #2e3333
+- beige : #ffeae4
+- red: #ff483b
+- orange : #ff8100
+- grey2 : #bac3c3
+- violet: #440063
+*/
+
+
+/* Style Général */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Poppins:wght@500;600&display=swap');
+
+body{
+  color: #2e3333;
+  margin: 0px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section {
+  min-height: 200px;
+  width: 100vw;
+  padding: 12px 6%;
+  box-sizing: border-box;
+}
+
+
+/* Style Général */
+
+#hero{
+background: linear-gradient(174.24deg, #00CCBC 2.36%, #00CCBC 49.37%, #C8E79D 49.37%, #D0EB99 88.81%);
+}
+
+h1, h2, h3, h4, h5, .title-font {
+  font-family: 'Poppins';
+  letter-spacing: -0.85px;
+  font-weight: 600
+}
+
+h1{
+  color:#440063;
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a{
+  color: #00ccbc;
+  text-decoration: none;
+}
+h4{
+  font-size:40px;
+  color:white;
+
+}
+
+.btn{
+  color: white;
+  background-color: #00ccbc;
+  padding: 12px 24px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+
+/* Style Livraison */
+
+#livraison{
+  background-color: #ffeae4;
+}
+.food{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+}
+
+#Ruisseau{
+    margin:10px;
+  padding:5px;
+}
+#Sushis{
+
+  margin:10px;
+  padding:5px;
+}
+#Jour{
+
+  margin:10px;
+  padding:5px;
+}
+#Salade{
+;
+  margin:10px;
+  padding:5px;
+}
+#Burger{
+
+  margin:10px;
+  padding:5px;
+}
+#Pizza{
+
+  margin:10px;
+  padding:5px;
+}
+img{
+  flex-grow:1;
+   width:400px;
+   height:250px;
+}
+/* Style section A la carte */
+
+.container{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+.img1{
+  width:660px;
+  height:150px; 
+background-image:url("https://f.roocdn.com/images/menu_tags/796/menu-tag-image.jpg?width=660&height=150&auto=webp&format=jpg&fit=crop&v=1583942247");
+background-repeat: no-repeat;
+  text-align:center;
+}
+.imgconfort h4{
+  width:660px;
+  height:150px;
+  background-image: url("https://f.roocdn.com/images/menu_tags/288/menu-tag-image.jpg?width=660&height=150&auto=webp&format=jpg&fit=crop&v=1585915475");
+  background-repeat: no-repeat;
+  text-align:center;
+}
+
+.imgrepasdaff{
+ width:550px;
+  height:150px;
+background-image: url("https://f.roocdn.com/images/menu_tags/285/menu-tag-image.jpg?width=430&height=150&auto=webp&format=jpg&fit=crop&v=1592297206");
+  background-repeat: no-repeat;
+}
+
+.imgplais{
+   width:580px;
+  height:150px;
+  background-image: url("https://f.roocdn.com/images/menu_tags/331/menu-tag-image.jpg?width=430&height=150&auto=webp&format=jpg&fit=crop&v=1548761115");
+  background-repeat: no-repeat;
+}
+
+
+#repas{
+   margin:10px;
+  padding:5px;
+ 
+}
+#Formule{
+   margin:10px;
+  padding:5px;
+}
+#Cuisine{
+   margin:10px;
+  padding:5px;
+
+}
+#plaisirs{
+   margin:10px;
+  padding:5px;
+}
+
+/* Style section Options */
+#option{
+  padding:5px;
+  margin:10px;
+}
+
+
+.option-contenaire {
+  display: inline-block ;
+  height:150px;
+  width:900px;
+  word-spacing:40px;
+
+}
+.option-contenaire a{
+  font-family:'Poppin';
+  font-size:2em;
+  color: black;
+  letter-spacing: -0.90px;
+
+}
+
+/* Style section Chaud */
+#chaud{
+  margin:10px;
+  padding:10px;
+  overflow:hidden;
+}
+.chaudcontainer{
+    margin:10px;
+  padding:10px;
+  display:flex;
+  justufy-content:space-between;
+}
+.chaudcontainer2{
+    margin:5px;
+  padding:5px;
+}
+.content{
+  width:800px;
+  height:200px;
+  float:center;
+   text-align:left;
+}
+.content2{
+  width:800px;
+  height:200px;
+  text-align:left;
+}
+.chaudcontainer{
+  display:flex;
+  justify-content:space-evenly;
+  
+}
+.chaudcontainer2{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.imgchaud1{
+   width:700px;
+   height:200px;
+   background-image: url("https://cwa.roocdn.com/_next/static/business.33b3f32a.jpg");
+   margin:10px;
+   padding:10px;
+   background-position: center;
+   transition: opacity .5s ease-out;
+  
+}
+
+.imgchaud{
+  width:700px;
+  height:200px;
+  margin:10px;
+  padding:10px;
+  background-position: center;
+  transition: opacity .5s ease-out;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1OTgiIGhlaWdodD0iNTk4IiB2aWV3Qm94PSIwIDAgNTk4IDU5OCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMi45MDMgMTQ5LjA3NkMwIDE0MC40NDQgMCAxMzQuODE4IDAgMTE0Ljc2NlY1OS4yMzRjMC0yMC4wNTIgMC0yNS42OCAyLjkwMy0zNC4zMUEzNy4wMiAzNy4wMiAwIDAgMSAyNC45MjQgMi45MDFDMzMuNTU2IDAgMzkuMTgyIDAgNTkuMjM0IDBoNTUuNTMyYzIwLjA1MiAwIDI1LjY3OCAwIDM0LjMxMSAyLjkwMWEzNy4wMjIgMzcuMDIyIDAgMCAxIDIyLjAyIDIyLjAyM0MxNzQgMzMuNTU0IDE3NCAzOS4xODIgMTc0IDU5LjIzNHY1NS41MzJjMCAyMC4wNTIgMCAyNS42NzgtMi45MDMgMzQuMzFhMzcuMDEyIDM3LjAxMiAwIDAgMS0yMi4wMiAyMi4wMjFDMTQwLjQ0NCAxNzQgMTM0LjgxOCAxNzQgMTE0Ljc2NyAxNzRINTkuMjMzYy0yMC4wNTIgMC0yNS42NzggMC0zNC4zMS0yLjkwM2EzNy4wMSAzNy4wMSAwIDAgMS0yMi4wMjEtMjIuMDIxeiIvPjwvZGVmcz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9IiNFMjAwNEYiIGQ9Ik0tMSAwaDYwMHY2MDBILTF6Ii8+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTY3OC44MTMgMzc5LjMzM2wtNzEuNDcxLTIyLjAwMy0yLjgwMSA3MS45MDctMTIuMjE2IDMuNjQ5LTE4LjE0LTg1Ljc2LTQyLjkzNC0xMy4yMi0xNy40MDYgNjcuNzM2LTExLjYyNCAyLjc4LTMuMS04MC40MDgtNDguMjk5LTE0Ljg3My0yOS4wNzkgNjcuMjk1LTguNDc1IDEuNTg4IDIuMzEzLTc0LjI2NC03Mi44NDQtMy43Ni00NS42ODIgMzAuNDQ3LTMuMzE3IDQ4LjM2OCAxOC43ODUgMjcuNjk1TDYyNy4zNiA1MDcuMTU1bDc1LjA1NC0yNS4zNjcgMTQuMDY3LTUxLjA4LTM3LjY2OC01MS4zNzV6bTIzLjM3OCAxMjAuOTQzbC05Ny4xMzUgNDAuNTQtNDUuNTQ2LTM3LjEwOS01Mi43NDUgNy4yNzUtNDIuNDU3LTQ0Ljk5Ny01OS44MTQgMi43NC00NC42NzctMzYuNDQtNzAuMDI2LTYuNzNMMjg3IDQ1NC4yOThsNjMuNzcyIDEwLjc4NSAzOC44NTIgMzMuMjMyIDY1LjE3MiA0Ljk4NiA0NS4yNDIgMzguMDQ1IDQ5LjIyNy0xLjQ4MiA0OS42ODkgMzMuNzIzIDExMy4yODctNDcuNDY1LTEwLjA1LTI1Ljg0NnptLTQwNy42MjgtMjcuOTU4bDEuNzMyIDMxLjM5NSAxMC42NTcgMjAuMzY1IDI3MS41NDQgMTA0LjI4OCA1MC4xMjkgNi44ODUgNDcuNTgyLTE0LjY0NSAyMi44NC0zMC44MiAzLjM4My0zNC4yMzYtNzUuODc0IDMxLjUyOS0zMy44ODQgMy42NzYtMjk4LjExLTExOC40Mzd6TS0zMi4wODUgMTUzLjI1MmwyLjM1NSA0My42NDQgMjY0LjQ1NS01LjIwNS0uMTEzLTQ1Ljg1Mi0yNjYuNjk3IDcuNDEzek0tNTAgMTM3LjU0NWw2Ljg1Mi0zMy4wMSAzMi43MzggOS4zMTEgMzIuMTUtMjAuOTc1IDQ1Ljc0MiAyMC41NDUgMzIuMTQtMjYuMDM1IDUzLjk2NyAxOS4zODIgNDQuOTMxLTM1LjQ1OSAxOS4yNTMgMjUuMDc0LTYwLjQ1MSA0My42NTMtNDkuOTQ1LTIyLjgxNC0zNi42IDIzLjc4LTQxLjQ2NC0xNS45NTMtMzguMjI0IDE3LjU4NUwtNTAgMTM3LjU0NXpNMTYyLjc1Ny0xMEwtNi44MzcgMTQuMzk4bC0zMC4xODcgNzkuNzY0Yy0xLjEzLjE5MyAyNTcuNjA3LTM4Ljc5OCAyNTcuNjA3LTM4Ljc5OEwxNjIuNzU3LTEwek0tNDMuMTQ4IDIxMy45MjZsNDkuMDgzIDcwLjI4IDE3Ny4yNDEtNi4zNzYgNDMuODY3LTczLjA4M2MxLjE0Ny0uMDQ4LTI3MC4xOTEgOS4xNzktMjcwLjE5MSA5LjE3OXoiIG9wYWNpdHk9Ii4zNjMiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMTQgMjE2KSI+PG1hc2sgaWQ9ImIiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2EiLz48L21hc2s+PHVzZSBmaWxsPSIjMzMzIiB4bGluazpocmVmPSIjYSIvPjxnIG1hc2s9InVybCgjYikiPjxwYXRoIGZpbGw9IiMwMENDQkMiIGQ9Ik0wIDBoMTc0djE3NEgweiIvPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik03Ny40NTEgOTcuOTVjLjYyNC0yLjQgMy41NjQtMi43NTggNS4wMzYtMi43ODRhMy43NTUgMy43NTUgMCAwIDEgMS42MTYuMzMyYzEuMDQuNDcgMi44MDIgMS40NzcgMy4xNTggMy4wMS41MTQgMi4yMDYuMDE5IDQuMDU3LTEuNTYzIDUuNTAzLTEuNTgyIDEuNDQ1LTMuNjcyIDEuMzEzLTUuODg2LjU3Ni0yLjIxNi0uNzMzLTMuMTk5LTMuNDA3LTIuMzYtNi42Mzd6bTIxLjUzMyA0LjM3NmMuMTItLjgyOC40NS0xLjYwOC45Ny0yLjI2NC43MTQtLjkwNCAxLjkwNi0yLjA4IDMuMjgyLTIuMTE4IDIuMjM4LS4wNTggNC4xNjQuOTQ1IDUuMjUyIDIuNzU4IDEuMDkgMS44MTEuNTQ1IDMuODA2LS42MDUgNS44MDItMS4xNSAxLjk5MS00LjE2MyAyLjI1NS03LjEyNy44MDUtMi0uOTc4LTEuOTktMy40NjctMS43NzItNC45ODN6TTM4LjE1IDEzMS42MzdsNzYuNjMgMTYuMjYzIDE3LjUyNi0zOS4zMDIgOC4zNDUtNzkuMjczLTMwLjczOC0zLjIyNS01LjY1MyA1My43MDdMOTQuNjIgMzQuNTNsLTMwLjIzIDYuNDE2IDkuNjM4IDQ1LjI3Ny00My41NzggOS4yNDggNy42OTkgMzYuMTY2eiIvPjwvZz48L2c+PC9nPjwvc3ZnPg==");
+}
+
+/* Style section Travailler */
+#travailler{
+  width:1500px;
+  height:900px;
+}
+#containerofwork{
+  display:inline flex;
+
+}
+
+.bikers{
+ margin:20px; 
+  padding:0px;
+}
+.Restaurant{
+   margin:20px; 
+  padding:0px;
+}
+.Carriere{
+   margin:20px;
+  padding:0px;
+   
+}
+.imgwork1{
+  width: 350px;
+height: 280px;
+  background-size: cover;
+background-position: 50%;
+  background-image: url("https://cwa.roocdn.com/_next/static/riders.6856d560.jpg");
+}
+.imgwork2{
+  width: 350px;
+  height: 280px;
+  background-size: cover;
+background-position: 50%;
+  background-image: url("https://cwa.roocdn.com/_next/static/restaurants.2a02d1a0.jpg");
+}
+.imgwork3{
+  width: 350px;
+  height: 280px;
+  background-size: cover;
+  background-position: 50%;
+background-image: url("https://cwa.roocdn.com/_next/static/team.86d7b512.jpg");
+}
+
+.textofwork1 {
+  background-color:#ff483b;
+  width:350px;
+  height:350px; 
+  color:white;
+}
+.textofwork2 {
+  background-color:orange;
+  width:350px;
+  height:350px;
+  color:white;
+}
+.textofwork3 {
+  background-color:grey;
+  width:350px;
+  height:350px; 
+  color:white;
+}
+
+/* Style section Hero */
+.hero1{
+  background-color:white;
+}
