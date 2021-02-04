@@ -1,3 +1,129 @@
 h1{
-    color:red;
+    text-align:center;
+    color:brown;
+    height:50px
+}
+
+  h2{
+    texte-align:center;
+    color:pink;
+  }
+  p{
+    font-style:italic;
+    color:brown;
+  }
+  li{
+    color:pink;
+    font-style:oblique;
+  }
+  body{
+  
+  }
+  
+  .comp{
+     
+      align-items: center;
+      padding:50px;
+      margin:50px;
+      box-shadow:  2px 2px 2px 2px rgb(219, 218, 218) ; 
+      -webkit-border-radius : 75px;
+  }
+
+  
+  .objectif{
+    box-shadow:  2px 2px 2px 2px rgb(219, 218, 218) ; 
+    padding:50px;
+    margin:50px;
+    -webkit-border-radius : 75px;
+   
+  }
+  
+  .img2{
+   width:150px;
+   height:200px;
+   
+  }
+  
+  
+  .headimg{
+    -webkit-border-radius : 75px;
+    width:150px;
+    height:150px;
+  }
+  button{
+    background-color:pink;
+    color:brown;
+  }
+    button:hover {
+    background-color:gold;
+  }
+  
+  b{
+    color:brown;
+  }
+  
+  a:hover {
+    background-color:gold;
+  }
+  
+  body{
+    background-color:white;
+  }
+  
+  .form{
+     float:center;
+     padding:50px;
+     margin:50px;
+    border: dashed pink;
+  }
+  
+  h3{
+    color:brown;
+    font-size: 1.5em;
+    
+  }
+  
+  .loved{
+    box-shadow:  1px 2px 1px 2px rgb(219, 218, 218); 
+    padding:50px;
+    margin:50px;
+    -webkit-border-radius : 75px;
+   
+  }
+  .projet{
+    box-shadow:  1px 2px 1px 1px rgb(48, 4, 4) ;
+    padding:50px;
+    margin:50px;
+    display:flex;
+    justify-content: space-between;
+    overflow: auto;
+    -webkit-border-radius : 50px;
+    background-color: brown ;
+   
+  }
+
+  .card{
+    padding:50px;
+    margin:50px;
+    display:block;
+    box-shadow:  2px 1px 2px  rgb(48, 4, 4) ;
+    background-color:white;
+  }
+
+
+  .titreprojet{
+      align-items: center;
+
+  }
+
+
+.logoimg{
+  -webkit-border-radius : 50px;
+  height:50px;
+  width:50px;
+}
+
+.form:hover{
+  background-color: pink;
+  border: dashed white;
 }
