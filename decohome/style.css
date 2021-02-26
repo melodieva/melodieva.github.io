@@ -1,0 +1,224 @@
+
+
+
+
+
+
+html{
+    scroll-behavior:smooth;
+  }
+  .navbar{
+    display:flex;
+    justify-content:center;
+    align-item:center;
+      background-image: url(https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8aG9tZSUyMGRlY29yfGVufDB8fDB8&auto=format&fit=crop&w=400&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+        height: 65vh;
+  }
+  .navbar div {
+    background-color:rgba(219,112,147, 0.4);;
+    padding: 30px;
+    color: #43314e;
+    text-align:center;
+  }
+  
+  .navbar img {
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+  }
+  
+  .bigcontainer{
+      display: flex;
+      max-width: 100%;
+      margin: 30px auto;
+      max-width: 1200px;
+   
+  
+  }
+  .container{
+  
+    min-height: 150vh;
+    flex-grow: 1;
+    margin-right: 40px;
+    
+    
+  }
+  
+  .navbar2{
+     position: sticky;
+    height: 350px;
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 10px;
+    width: 20%;
+    top: 50px;
+    width: 200px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .navbar2 {
+      display: none;
+    }
+     .container{
+      margin-right:0px;
+      }
+    }
+  
+   
+  .card img{
+     height:320px;
+    width:300px;
+  }
+  
+  .card{
+    height:500px;
+    width:300px;
+    margin:10px;
+    pagging:10px;
+    display:block;
+    justify-content:center;
+    align-item:center;
+  }
+  
+  
+  .babycard{
+  
+     margin:10px;
+    pagging:10px;
+  }
+  .babycard2{
+   
+     margin:10px;
+    pagging:10px;
+  }
+  #bigcard1 {
+    display:flex;
+    justify-content:space-evenly;
+    
+  }
+  #bigcard2{
+    display:flex;
+     justify-content:space-evenly;
+    
+  }
+  #bigcard3{
+    display:flex;
+     justify-content:space-evenly;
+    
+  }
+  #bigcard4{
+    display:flex;
+     justify-content:space-evenly;
+    
+  }
+  #bigcard5{
+    display:flex;
+     justify-content:space-evenly;
+    
+  }
+  #bigcard6{
+    display:flex;
+     justify-content:space-evenly;
+    
+  }
+  #bigcard7{
+    display:flex;
+     justify-content:space-evenly;
+    
+  }
+  #bigcard8{
+    display:flex;
+     justify-content:space-evenly;
+    
+  }
+  #bigcard9{
+    display:flex;
+     justify-content:space-evenly;
+    
+  }
+  #bigcard10{
+    display:flex;
+     justify-content:space-evenly;
+  }
+  
+  #toblock{
+    display:block;
+    
+      margin:10px;
+    pagging:10px;
+  }
+  
+  .babycard img{
+    height:250px;
+    width:250px;
+    padding:2px;
+    margin:2px;
+  }
+  .babycard2 img{
+    height:200px;
+    width:250px;
+  }
+  
+  #secondtoblock{
+    display:flex;
+    align-items:center;
+  }
+  .babycard4 img{
+    height:250px;
+    width:280px;
+  }
+  .babycardcoussins img{
+     height:250px;
+    width:280px;
+    padding:2px;
+    margin:2px;
+  }
+  
+  #bigcard1:hover{
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 40px;
+  }
+  
+  #bigcard2:hover{
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 40px;
+  }
+  
+  #bigcard3:hover{
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 40px;
+  }
+  
+  #bigcard4:hover{
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 40px;
+  }
+  #bigcard5:hover{
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 40px;
+  }
+  #bigcard6:hover{
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 40px;
+  }
+  #bigcard7:hover{
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 40px;
+  }
+  #bigcard8:hover{
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 40px;
+  }
+  #bigcard9:hover{
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 40px;
+  }
+  #bigcard10:hover{
+    box-shadow:  2px 2px 2px 2px grey ; 
+    -webkit-border-radius : 40px;
+  }
+  
+  
+  
